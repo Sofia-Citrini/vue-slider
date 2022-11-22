@@ -45,6 +45,9 @@ createApp({
             };
 
             this.currentEl++;
+        },
+        clickImgThumb (index){
+            this.currentEl = index;
         }
     }
 
