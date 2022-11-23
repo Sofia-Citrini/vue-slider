@@ -49,6 +49,10 @@ createApp({
         clickImgThumb (index){
             this.currentEl = index;
         }
+    },
+
+    mounted(){
+        setInterval(this.onNextBtnClick, 3000);
     }
 
 }).mount('#app')
